@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tang Hiu Ying</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #3d4a57;
+      background: #fcf9f6;
+    }
+    nav {
+      background: #f6dfe3;
+      padding: 15px 30px;
+    }
+    nav a {
+      color: #5a4a55;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: #d6e6f2;
+      color: #2f4558;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin: 0 0 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin: 0;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #6a5b78;
+      border-bottom: 2px solid #d8cce6;
+      padding-bottom: 5px;
+    }
+    .box {
+      background: white;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #e6dfee;
+    }
+  </style>
 </head>
 <body>
-  <h1>Tang Hiu Ying</h1>
-  <p>Hello World!This is my personal website!Nice to meet you.</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#learning">Learning</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Tang Hiu Ying</h1>
+    <p>Welcome to my personal website!</p>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello World! Nice to meet you!</p>
+  </section>
+
+  <section id="learning">
+    <h2>What I Am Learning</h2>
+    <div class="box">
+      <strong>ELEC 3200</strong>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="box">
+      <strong>My personal website</strong><br>
+      This website, built with HTML and CSS and hosted on GitHub Pages.
+    </div>
+  </section>
+
 </body>
 </html>
